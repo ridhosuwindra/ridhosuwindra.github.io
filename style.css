@@ -1,0 +1,19 @@
+body {
+  min-height: 2000px;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: black;
+}
+#portofolio {
+  padding-top: 8rem;
+  background-color: #273036;
+}
+#contact {
+  padding-top: 8rem;
+  background-color: black;
+}
+
+section {
+  padding-top: 6rem;
+}

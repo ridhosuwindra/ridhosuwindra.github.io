@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- my Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portofolio | Ridho Suwindra</title>
+  </head>
+  <body id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #273036">
+      <div class="container text-light">
+        <a class="navbar-brand" href="">Ridho Suwindra</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/suwindra.jpg" alt="Ridho Suwindra" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4 text-light">Ridho Suwindra</h1>
+      <a href="https://drive.google.com/file/d/1tyq3JMTHHXRX_d4fPBe7jaN59HVZ7vXQ/view?usp=drive_link">Klik untuk melihat resume</a>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#273036"
+          fill-opacity="1"
+          d="M0,256L30,229.3C60,203,120,149,180,160C240,171,300,245,360,245.3C420,245,480,171,540,138.7C600,107,660,117,720,128C780,139,840,149,900,165.3C960,181,1020,203,1080,186.7C1140,171,1200,117,1260,90.7C1320,64,1380,64,1410,64L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir jumbotron -->
+
+    <section id="portofolio">
+      <div class="container text-light">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Portofolio</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card" style="background-color: black">
+              <img src="img/beclean.png" class="card-img-top" alt="portofolio" />
+              <div class="card-body">
+                <p class="card-text">website ini saya kembangkan untuk sebuah laundry di jakarta utara, tujuannya untuk mempermudah input transaksi dan pengelolaan penyimpanan pada database</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style="background-color: black">
+              <img src="img/pdm.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">website ini saya kembangkan untuk PDM Depok tempat saya magang. tujuannya untuk mempermudah kontrol antar cabang dan pemantauan data aset secara langsung</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" style="background-color: black">
+              <img src="img/kacamata.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">website ini saya kembangkan untuk keperluan pribadi teman saya. tujuannya untuk mempermudah dalam memutuskan terkait pemilihan supplier kacamata</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill=""
+          fill-opacity="1"
+          d="M0,288L60,261.3C120,235,240,181,360,160C480,139,600,149,720,176C840,203,960,245,1080,250.7C1200,256,1320,224,1380,208L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <section id="contact">
+      <div class="container text-light">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-success">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#273036"
+          fill-opacity="1"
+          d="M0,256L30,229.3C60,203,120,149,180,160C240,171,300,245,360,245.3C420,245,480,171,540,138.7C600,107,660,117,720,128C780,139,840,149,900,165.3C960,181,1020,203,1080,186.7C1140,171,1200,117,1260,90.7C1320,64,1380,64,1410,64L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <footer class="text-light text-center fw-bold" style="background-color: #273036">
+      <p>Created by <a href="https://www.instagram.com/ridhosuwindra_/">Ridho Suwindra</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
